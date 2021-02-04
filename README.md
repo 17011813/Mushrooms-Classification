@@ -1,6 +1,6 @@
 버섯의 클래스별로 Gradient Boosting 알고리즘을 사용하여 100%의 train과 test 정확도를 얻을 수 있었습니다.
 
-버섯 feature csv파일은 [Investing.Com](https://www.kaggle.com/uciml/mushroom-classification) 에서 다운받았습니다.
+버섯 feature csv파일은 [Kaggle](https://www.kaggle.com/uciml/mushroom-classification) 에서 다운받았습니다.
 
 Gradient Boosting 모델은 랜덤포레스트보다 더 적은 수의 트리를 사용하며 learning rate을 추가한 모델입니다.
 
