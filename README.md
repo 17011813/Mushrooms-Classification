@@ -6,7 +6,7 @@ Gradient Boosting 모델은 랜덤포레스트보다 더 적은 수의 트리를
 
 이전 트리의 오차를 보완하며 순차적으로 트리를 만들어 나갑니다.
 
-<font color="red"> LabelEncoder </font>를 임포트해서 각 feature 열의 알파벳을 숫자로 변환하여 줍니다.
+<font color="red">LabelEncoder</font>를 임포트해서 각 feature 열의 알파벳을 숫자로 변환하여 줍니다.
 
 이전 drug classification의 경우 파이썬으로 직접 a->0, b->1, c->2 로 수정해 주었다면, LabelEncoder를 통해 이 과정을 손쉽게 for문으로 해결할 수 있습니다.
 
