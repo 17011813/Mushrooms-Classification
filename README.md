@@ -6,6 +6,8 @@ Gradient Boosting 모델은 랜덤포레스트보다 더 적은 수의 트리를
 
 이전 트리의 오차를 보완하며 순차적으로 트리를 만들어 나갑니다.
 
+Random Forest 모델의 경우 n_estimator가 클수록 (시간은 오래 걸리지만) 좋지만, Gradient Boosting 모델의 경우 n_estimator가 크면 오버피팅될 가능성이 높아집니다.
+
 정형 데이터에서 좋은 성능을 내지만 비정형 데이터 (영상, 음성, ...)에서는 딥러닝이 더 좋은 성능을 냅니다.
 
 LabelEncoder를 임포트해서 각 feature 열의 알파벳을 숫자로 변환하여 줍니다.
